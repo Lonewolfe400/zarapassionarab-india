@@ -1,0 +1,68 @@
+* {
+  margin: auto;
+  padding: 0;
+}
+
+body{
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+  box-shadow: 2px 1px 9px 5px;
+}
+.zimgg {
+  width: 260px;
+}
+.main {
+  padding: 11px;
+  box-shadow: 2px 2px 19px 19px blue;
+}
+
+.facebook .fb {
+  
+  margin: auto;
+  height: 50px;
+  width: 50px;
+}
+
+.instagram .ig{
+  
+  margin: auto;
+  height: 50px;
+  width: 50px;
+}
+
+.fbdiv {
+
+  margin-bottom: 9px;
+
+}
+.igdiv {
+
+  margin-bottom: 9px;
+
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-8 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media screen and (max-width: 680px) {
+  *{
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+
+}

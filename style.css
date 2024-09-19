@@ -1,0 +1,320 @@
+body {
+  background-color: rgb(153, 49, 250);
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.firstp {
+  text-align: center;
+  width: 100%;
+  height: max-content;
+  background-color: white;
+}
+.zimg {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+
+}
+.zimgg {
+  width: 260px;
+}
+
+nav {
+  width: 100%;
+  margin: 0;
+  border: 5px, solid, red ;
+  border-left: 0;
+  border-right: 0;
+}
+
+nav ul {
+  background-color: white;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+ul.topnav li {
+  list-style: none;
+  float: left;
+}
+
+ul.topnav li.topnav-right {
+  float: right;
+}
+
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  min-height: 16px;
+  padding: 14px;
+  text-transform: uppercase;
+  color: #666;
+}
+ul.topnav li.dropdownicon {
+  display: none;
+  float: right;
+}
+
+ul.topnav li a:hover{
+  background-color: #ff002b;
+  color: #fff;
+}
+.logo {
+  margin: auto;
+}
+.loggo {
+  width: 100%;
+  margin: auto;
+}
+.part {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.partnn {
+  margin: auto;
+  text-align: center;
+  height: 80px;
+  width: 90%;
+}
+
+.button .buttonn{
+  margin: auto;
+  height: 45px;
+  width: 300px;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(141, 11, 141);
+  border-radius: 7px ;
+  border: 2px, solid, #666;
+}
+.button a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+.button:hover {
+  border: 0;
+  opacity: 0.8;
+}
+.type1 {
+  /* padding-top: 4px;
+  padding-bottom: 4px; */
+  margin: auto;
+  height: 60px;
+  background-color: rgb(141, 11, 141);
+}
+.htype1 {
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  padding-top: 11px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+  font-family: sans-serif;
+}
+
+.immg {
+  width: 400px;
+  height: 360px;
+  margin-top: 5px;
+}
+label {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+.row::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.box {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.vote {
+  margin: auto;
+  padding: 9px;
+}
+.voter {
+  width: 400px;
+  height: 60px;
+  background-color: purple;
+  text-decoration: none;
+}
+.vote .voter:hover {
+  background-color: rgba(128, 2, 128, 0.767);
+  transition: 0.5s;
+  color: #6574fc;
+  font-weight: bold;
+}
+.vote .voter  {
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.label {
+  border-radius: 6px;
+  padding-left: 9px ;
+  padding-right: 9px ;
+  font-size: 20px;
+  color: rgb(32, 31, 31);
+  background-color: rgb(116, 113, 113);
+  opacity: 0.8;
+  display: block;
+}
+.see .seen{
+  height: 28px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff002b;
+  color: white;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-8 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////// mobile//////////// */
+
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
+
+  }
+ 
+  body {
+    max-width: 680px;
+    text-align: center;
+  }
+  ul.topnav li.dropdownicon {
+    display: block;
+    float: right;
+  }
+  .logo {
+    width: 500px;
+    overflow: hidden;
+    display: block;
+
+  }
+
+  .loggo {
+    width: 500px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .partnn {
+    display: block;
+    height: 30px;
+    width: 400px;
+  }
+  .part {
+    display: block;
+    width: fit-content;
+  }
+  .button {
+    width: 200px;
+  }
+
+  .htype1 {
+    padding-top: 17px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 25px;
+    font-family: sans-serif;
+  }
+  .col-4 {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .col-2 {
+    width: 100%;
+  }
+  .voter {
+    width: max-content;
+    border-radius: 8px;
+    border: none;
+    
+  }
+  .vote .voter a {
+    font-size: 17px;
+  }
+  .label {
+    width: max-content;
+    margin: auto;
+    font-weight: bold;
+  }
+
+
+}
